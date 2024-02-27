@@ -29,14 +29,24 @@
         display: block;
     }
     .box-logo{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
     
+    header .nav .card{
+        display: flex;
+        justify-content: center;
+    }
     .bye {
         display: none;
     }
     /* /HEADER */
+
+    /* MENU LATERALE */
+    .box-container{
+        line-height: 50px;
+    }
+    /* /MENU LATERALE */
 
 }
 
@@ -54,10 +64,14 @@
         width: 50px;
         height: 50px;
     }
-    
+
     .bye {
         display: none;
     }
     /* /HEADER */
+
+    /* MENU LATERALE */
+
+    /* /MENU LATERALE */
 
 }
