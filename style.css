@@ -4,3 +4,61 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+/* HEADER */
+header {
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 10px;
+}
+.logo, .nav{
+    width: 10%;
+}
+.cerca{
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+header .row{
+    align-items: center;
+    background-color: white;
+}
+header .cerca .card{
+    display: flex;
+    background-color: #e5e5e5;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+header i{
+    font-size: 20px;
+}
+
+header .input-cerca{
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none; 
+    font-size: 20px;
+}
+header .nav .card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.orange{
+    color: #ff8f00;
+}
+/* /HEADER */

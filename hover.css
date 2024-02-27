@@ -1,0 +1,6 @@
+/* HOVER  */
+header i:hover{
+    font-size: 25px;
+    transition: 0.8;
+}
+/* /HOVER */ 

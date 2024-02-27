@@ -1,0 +1,63 @@
+/* HEADER */
+.logo-piccolo{
+    display: none;
+}
+/* /HEADER */
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) { 
+
+    /* HEADER */
+    .logo-piccolo{
+        display: none;
+    }
+    /* /HEADER */
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) { 
+
+    /* HEADER */
+    .logo-grande{
+        display: none;
+    }
+    .logo-piccolo{
+        display: block;
+    }
+    .box-logo{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .bye {
+        display: none;
+    }
+    /* /HEADER */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) { 
+
+    /* HEADER */
+    .logo-grande{
+        display: none;
+    }
+    .logo-piccolo{
+        display: block;
+    }
+    .box-logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .bye {
+        display: none;
+    }
+    /* /HEADER */
+
+}
