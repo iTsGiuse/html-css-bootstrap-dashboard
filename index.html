@@ -241,14 +241,10 @@
             <section class="d-flex">
                 <section id="sinistra" class="flex-grow-1 me-3">
                     <section id="classi" class="container-fluid mt-4">
-                        <div class="row ">
-                            <div class="col">
-                                <div class="card mb-3" >
-                                    <div class="card-header ms-text-bg-secondary">Header</div>
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
+                        <div class="card mb-3" >
+                            <div class="card-header ms-text-bg-secondary">Header</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
                         </div>
@@ -256,16 +252,16 @@
                     <section id="faq" class="container-fluid mt-4">
                         <div class="card mb-3" >
                             <div class="card-header ms-text-bg-secondary">
-                                <h2>FAQ</h2>
+                                <h2>F.A.Q.</h2>
                                 <div class="card-body">
                                     <div class="accordion" id="accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             Accordion Item #1
                                             </button>
                                             </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                                 </div>
@@ -302,11 +298,57 @@
                     </section>
                     </section>
                     <section id="destra" class="flex-grow-1 mt-4">
-                        <section id="todo" class="container-fluid">
-
+                        <section id="todo">
+                            <div class="card mb-3" >
+                                <div class="card-header ms-text-bg-secondary">
+                                    <h2>Todo</h2>
+                                </div>
+                                    <div class="card m-3">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <div class="form-check ">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                    Kickoff nuove classi
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check ">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                    Lezioni su Bootstrap 5 in classe #75
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check ">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                    Confermare username github studenti
+                                                    </label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                </div>
+                            </div>
                         </section>
                         <section id="andamento" class="container-fluid mt-3">
-                            
+                            <div class="card me-5" style="width: 28rem;">
+                                <img src="./img/stats.jpeg" class="card-img-top" alt="stats">
+                                <div class="card-body">
+                                  <h5 class="card-title">Utenti attivi</h5>
+                                  <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Gennaio: 1200</li>
+                                  <li class="list-group-item">Febbraio: 800</li>
+                                  <li class="list-group-item">Marzo: 1500</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="card-link">Visualizza report approfondito</a>
+                                </div>
+                              </div>
                         </section>
                     </section>
                 </section>
