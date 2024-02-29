@@ -3,8 +3,7 @@ header {
     background-color: #f8f9fa; 
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 6vh;
-    width: 100vw;
+    height: 70px;
 }
 header .row{
     background-color: white;
@@ -33,7 +32,6 @@ main{
 /* MENU LATERALE */
 #menu-laterale{
     width: 120px;
-    height: 92vh;
     background-image: url(./img/sidebar-bg.png);
     background-color: #051e34;
 }
@@ -49,8 +47,6 @@ main{
 /* /MENU LATERALE */
 
 #hero{
-    width: calc(100vw - 104px);
-    height: 14vh;
     background-color: #1b72e8 ;
     display: flex;
 }
@@ -71,27 +67,12 @@ main{
     padding-right: 20px !important;
     margin-left: 10px !important;
 }
-.ms-offcanvas{
-    width: 500px !important;
-}
 
 
-#classi{
-    width: calc(100vw - (120px + 30vw));
-    height: 42vh;
-}
+
 #faq{
     margin-top: 70px !important;
-    width: calc(100vw - (120px + 30vw));
-    height: 30vh;
-    
+  
 }
-#todo{
-    width: calc(100vw - 70vw);
-    height: 20vh;
-}
-#andamento{
-    width: calc(100vw - 70vw) ;
-    height: 50vh;
-}
+
 
